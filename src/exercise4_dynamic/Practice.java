@@ -2,7 +2,7 @@ package exercise4_dynamic;
 
 public class Practice {
     static final int NUM_END = 200000;
-    static final int NUM_THREAD = 14;
+    static final int NUM_THREAD = 16;
     public static void main(String[] args){
         int counter = 0;
         PrimeSearch_Dynamic p[] = new PrimeSearch_Dynamic[NUM_THREAD];
